@@ -1,0 +1,48 @@
+{
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "data": {
+          "id": "note-c9LX2",
+          "node": {
+            "description": "# Healthcare Knowledge Graph Assistant\nGraph of symptoms, diagnoses, treatments, and outcomes.\\\nAgent retrieves related conditions, updates graph with recent research, and suggests possible diagnoses.\\\nExample query: “What rare conditions link fatigue, skin rashes, and autoimmune markers in young adults?”",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "neutral"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-c9LX2",
+        "measured": {
+          "height": 324,
+          "width": 436
+        },
+        "position": {
+          "x": 288,
+          "y": 216.01388549804688
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 436
+      }
+    ],
+    "viewport": {
+      "x": -525.9074074074074,
+      "y": -574.0398565221715,
+      "zoom": 2.8703703703703702
+    }
+  },
+  "description": "Sculpting Language with Precision.",
+  "endpoint_name": null,
+  "id": "e7ef357f-69e3-4a99-924d-7c58a11b66f8",
+  "is_component": false,
+  "last_tested_version": "1.5.0.post2",
+  "name": "5. Fusion RAG (WIP)",
+  "tags": []
+}
