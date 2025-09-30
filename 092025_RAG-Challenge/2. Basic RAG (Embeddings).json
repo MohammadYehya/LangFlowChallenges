@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-Tzhxs",
+            "id": "ChatInput-r04fy",
             "name": "message",
             "output_types": [
               "Message"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "question",
-            "id": "Prompt-itGOC",
+            "id": "Prompt-Y5Hzv",
             "inputTypes": [
               "Message",
               "Text"
@@ -23,12 +23,12 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-Tzhxs{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Tzhxsœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-itGOC{œfieldNameœ:œquestionœ,œidœ:œPrompt-itGOCœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-r04fy{œdataTypeœ:œChatInputœ,œidœ:œChatInput-r04fyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-Y5Hzv{œfieldNameœ:œquestionœ,œidœ:œPrompt-Y5Hzvœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-Tzhxs",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Tzhxsœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-itGOC",
-        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-itGOCœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-r04fy",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-r04fyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-Y5Hzv",
+        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-Y5Hzvœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -36,7 +36,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "parser",
-            "id": "parser-CLMNL",
+            "id": "parser-slz2w",
             "name": "parsed_text",
             "output_types": [
               "Message"
@@ -44,7 +44,7 @@
           },
           "targetHandle": {
             "fieldName": "context",
-            "id": "Prompt-itGOC",
+            "id": "Prompt-Y5Hzv",
             "inputTypes": [
               "Message",
               "Text"
@@ -52,12 +52,12 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-parser-CLMNL{œdataTypeœ:œparserœ,œidœ:œparser-CLMNLœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-itGOC{œfieldNameœ:œcontextœ,œidœ:œPrompt-itGOCœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-parser-slz2w{œdataTypeœ:œparserœ,œidœ:œparser-slz2wœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-Y5Hzv{œfieldNameœ:œcontextœ,œidœ:œPrompt-Y5Hzvœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "parser-CLMNL",
-        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-CLMNLœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-itGOC",
-        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-itGOCœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "source": "parser-slz2w",
+        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-slz2wœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-Y5Hzv",
+        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-Y5Hzvœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -65,7 +65,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-itGOC",
+            "id": "Prompt-Y5Hzv",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -73,49 +73,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "LanguageModelComponent-QAnfM",
+            "id": "LanguageModelComponent-lvHcE",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt-itGOC{œdataTypeœ:œPromptœ,œidœ:œPrompt-itGOCœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-LanguageModelComponent-QAnfM{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-QAnfMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-Y5Hzv{œdataTypeœ:œPromptœ,œidœ:œPrompt-Y5Hzvœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-LanguageModelComponent-lvHcE{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-lvHcEœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-itGOC",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-itGOCœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "LanguageModelComponent-QAnfM",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-QAnfMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "LanguageModelComponent",
-            "id": "LanguageModelComponent-QAnfM",
-            "name": "text_output",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "ChatOutput-cMLKx",
-            "inputTypes": [
-              "Data",
-              "DataFrame",
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-LanguageModelComponent-QAnfM{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-QAnfMœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-cMLKx{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-cMLKxœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "LanguageModelComponent-QAnfM",
-        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-QAnfMœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-cMLKx",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-cMLKxœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt-Y5Hzv",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-Y5Hzvœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LanguageModelComponent-lvHcE",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-lvHcEœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -123,7 +93,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SplitText",
-            "id": "SplitText-oUNjz",
+            "id": "SplitText-siuvM",
             "name": "dataframe",
             "output_types": [
               "DataFrame"
@@ -131,7 +101,7 @@
           },
           "targetHandle": {
             "fieldName": "ingest_data",
-            "id": "Chroma-cRc0O",
+            "id": "Chroma-SE535",
             "inputTypes": [
               "Data",
               "DataFrame"
@@ -139,12 +109,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__SplitText-oUNjz{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-oUNjzœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-Chroma-cRc0O{œfieldNameœ:œingest_dataœ,œidœ:œChroma-cRc0Oœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SplitText-siuvM{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-siuvMœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-Chroma-SE535{œfieldNameœ:œingest_dataœ,œidœ:œChroma-SE535œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SplitText-oUNjz",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-oUNjzœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "Chroma-cRc0O",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-cRc0Oœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "SplitText-siuvM",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-siuvMœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "Chroma-SE535",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-SE535œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -152,7 +122,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Google Generative AI Embeddings",
-            "id": "Google Generative AI Embeddings-GxYjR",
+            "id": "Google Generative AI Embeddings-HQdTi",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -160,19 +130,19 @@
           },
           "targetHandle": {
             "fieldName": "embedding",
-            "id": "Chroma-cRc0O",
+            "id": "Chroma-SE535",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__Google Generative AI Embeddings-GxYjR{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-GxYjRœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-cRc0O{œfieldNameœ:œembeddingœ,œidœ:œChroma-cRc0Oœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Google Generative AI Embeddings-HQdTi{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-HQdTiœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-SE535{œfieldNameœ:œembeddingœ,œidœ:œChroma-SE535œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Google Generative AI Embeddings-GxYjR",
-        "sourceHandle": "{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-GxYjRœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "Chroma-cRc0O",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-cRc0Oœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "source": "Google Generative AI Embeddings-HQdTi",
+        "sourceHandle": "{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-HQdTiœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "Chroma-SE535",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-SE535œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -180,7 +150,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Directory",
-            "id": "Directory-KoHl5",
+            "id": "Directory-X8gHq",
             "name": "dataframe",
             "output_types": [
               "DataFrame"
@@ -188,7 +158,7 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-oUNjz",
+            "id": "SplitText-siuvM",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -197,12 +167,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__Directory-KoHl5{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-KoHl5œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-SplitText-oUNjz{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-oUNjzœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Directory-X8gHq{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-X8gHqœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-SplitText-siuvM{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-siuvMœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Directory-KoHl5",
-        "sourceHandle": "{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-KoHl5œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "SplitText-oUNjz",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-oUNjzœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "Directory-X8gHq",
+        "sourceHandle": "{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-X8gHqœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "SplitText-siuvM",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-siuvMœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -210,7 +180,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Google Generative AI Embeddings",
-            "id": "Google Generative AI Embeddings-hLlB9",
+            "id": "Google Generative AI Embeddings-rUmWK",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -218,19 +188,19 @@
           },
           "targetHandle": {
             "fieldName": "embedding",
-            "id": "Chroma-avTHM",
+            "id": "Chroma-IdYWj",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__Google Generative AI Embeddings-hLlB9{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-hLlB9œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-avTHM{œfieldNameœ:œembeddingœ,œidœ:œChroma-avTHMœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Google Generative AI Embeddings-rUmWK{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-rUmWKœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-IdYWj{œfieldNameœ:œembeddingœ,œidœ:œChroma-IdYWjœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Google Generative AI Embeddings-hLlB9",
-        "sourceHandle": "{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-hLlB9œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "Chroma-avTHM",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-avTHMœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "source": "Google Generative AI Embeddings-rUmWK",
+        "sourceHandle": "{œdataTypeœ:œGoogle Generative AI Embeddingsœ,œidœ:œGoogle Generative AI Embeddings-rUmWKœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "Chroma-IdYWj",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-IdYWjœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -238,7 +208,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-Tzhxs",
+            "id": "ChatInput-r04fy",
             "name": "message",
             "output_types": [
               "Message"
@@ -246,19 +216,19 @@
           },
           "targetHandle": {
             "fieldName": "search_query",
-            "id": "Chroma-avTHM",
+            "id": "Chroma-IdYWj",
             "inputTypes": [
               "Message"
             ],
             "type": "query"
           }
         },
-        "id": "xy-edge__ChatInput-Tzhxs{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Tzhxsœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Chroma-avTHM{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-avTHMœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
+        "id": "reactflow__edge-ChatInput-r04fy{œdataTypeœ:œChatInputœ,œidœ:œChatInput-r04fyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Chroma-IdYWj{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-IdYWjœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
         "selected": false,
-        "source": "ChatInput-Tzhxs",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Tzhxsœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Chroma-avTHM",
-        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-avTHMœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}"
+        "source": "ChatInput-r04fy",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-r04fyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Chroma-IdYWj",
+        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œChroma-IdYWjœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}"
       },
       {
         "animated": false,
@@ -266,7 +236,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Chroma",
-            "id": "Chroma-avTHM",
+            "id": "Chroma-IdYWj",
             "name": "dataframe",
             "output_types": [
               "DataFrame"
@@ -274,7 +244,7 @@
           },
           "targetHandle": {
             "fieldName": "input_data",
-            "id": "parser-CLMNL",
+            "id": "parser-slz2w",
             "inputTypes": [
               "DataFrame",
               "Data"
@@ -282,12 +252,42 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__Chroma-avTHM{œdataTypeœ:œChromaœ,œidœ:œChroma-avTHMœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-CLMNL{œfieldNameœ:œinput_dataœ,œidœ:œparser-CLMNLœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Chroma-IdYWj{œdataTypeœ:œChromaœ,œidœ:œChroma-IdYWjœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-slz2w{œfieldNameœ:œinput_dataœ,œidœ:œparser-slz2wœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Chroma-avTHM",
-        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-avTHMœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "parser-CLMNL",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-CLMNLœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+        "source": "Chroma-IdYWj",
+        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-IdYWjœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "parser-slz2w",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-slz2wœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LanguageModelComponent",
+            "id": "LanguageModelComponent-lvHcE",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-73rsg",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LanguageModelComponent-lvHcE{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-lvHcEœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-73rsg{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-73rsgœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LanguageModelComponent-lvHcE",
+        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-lvHcEœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-73rsg",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-73rsgœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
@@ -295,7 +295,7 @@
         "data": {
           "description": "Get chat inputs from the Playground.",
           "display_name": "Chat Input",
-          "id": "ChatInput-Tzhxs",
+          "id": "ChatInput-r04fy",
           "node": {
             "base_classes": [
               "Message"
@@ -305,7 +305,7 @@
             "custom_fields": {},
             "description": "Get chat inputs from the Playground.",
             "display_name": "Chat Input",
-            "documentation": "",
+            "documentation": "https://docs.langflow.org/components-io#chat-input",
             "edited": false,
             "field_order": [
               "input_value",
@@ -318,8 +318,8 @@
             "frozen": false,
             "icon": "MessagesSquare",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
+            "minimized": true,
             "output_types": [],
             "outputs": [
               {
@@ -329,6 +329,8 @@
                 "group_outputs": false,
                 "method": "message_response",
                 "name": "message",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -340,48 +342,6 @@
             "pinned": false,
             "template": {
               "_type": "Component",
-              "background_color": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Background Color",
-                "dynamic": false,
-                "info": "The background color of the icon.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "background_color",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
-              "chat_icon": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Icon",
-                "dynamic": false,
-                "info": "The icon of the message.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "chat_icon",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
               "code": {
                 "advanced": true,
                 "dynamic": true,
@@ -398,24 +358,25 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from langflow.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs.inputs import BoolInput\nfrom langflow.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom langflow.schema.message import Message\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-input\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        background_color = self.background_color\n        text_color = self.text_color\n        icon = self.chat_icon\n\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=self.session_id,\n            files=self.files,\n            properties={\n                \"background_color\": background_color,\n                \"text_color\": text_color,\n                \"icon\": icon,\n            },\n        )\n        if self.session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+                "value": "from langflow.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs.inputs import BoolInput\nfrom langflow.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom langflow.schema.message import Message\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-input\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        files = [f for f in files if f is not None and f != \"\"]\n\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=self.session_id,\n            files=files,\n        )\n        if self.session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
               },
               "files": {
+                "_input_type": "FileInput",
                 "advanced": true,
                 "display_name": "Files",
                 "dynamic": false,
                 "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
                   "txt",
                   "md",
                   "mdx",
-                  "csv",
-                  "json",
                   "yaml",
                   "yml",
                   "xml",
                   "html",
                   "htm",
-                  "pdf",
                   "docx",
                   "py",
                   "sh",
@@ -432,6 +393,7 @@
                 "file_path": "",
                 "info": "Files to be sent with the message.",
                 "list": true,
+                "list_add_label": "Add More",
                 "name": "files",
                 "placeholder": "",
                 "required": false,
@@ -443,12 +405,15 @@
                 "value": ""
               },
               "input_value": {
+                "_input_type": "MultilineInput",
                 "advanced": false,
+                "copy_field": false,
                 "display_name": "Input Text",
                 "dynamic": false,
                 "info": "Message to be passed as input.",
                 "input_types": [],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "multiline": true,
                 "name": "input_value",
@@ -456,30 +421,39 @@
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": "What is this document about?"
               },
               "sender": {
+                "_input_type": "DropdownInput",
                 "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
                 "display_name": "Sender Type",
                 "dynamic": false,
+                "external_options": {},
                 "info": "Type of sender.",
                 "name": "sender",
                 "options": [
                   "Machine",
                   "User"
                 ],
+                "options_metadata": [],
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": "User"
               },
               "sender_name": {
+                "_input_type": "MessageTextInput",
                 "advanced": true,
                 "display_name": "Sender Name",
                 "dynamic": false,
@@ -488,18 +462,21 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "sender_name",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": "User"
               },
               "session_id": {
+                "_input_type": "MessageTextInput",
                 "advanced": true,
                 "display_name": "Session ID",
                 "dynamic": false,
@@ -508,61 +485,46 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "session_id",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": ""
               },
               "should_store_message": {
+                "_input_type": "BoolInput",
                 "advanced": true,
                 "display_name": "Store Messages",
                 "dynamic": false,
                 "info": "Store the message in the history.",
                 "list": false,
+                "list_add_label": "Add More",
                 "name": "should_store_message",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "bool",
                 "value": true
-              },
-              "text_color": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Text Color",
-                "dynamic": false,
-                "info": "The text color of the name",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "text_color",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
               }
-            }
+            },
+            "tool_mode": false
           },
           "selected_output": "message",
           "type": "ChatInput"
         },
         "dragging": false,
         "height": 234,
-        "id": "ChatInput-Tzhxs",
+        "id": "ChatInput-r04fy",
         "measured": {
           "height": 234,
           "width": 320
@@ -583,7 +545,7 @@
         "data": {
           "description": "Create a prompt template with dynamic variables.",
           "display_name": "Prompt",
-          "id": "Prompt-itGOC",
+          "id": "Prompt-Y5Hzv",
           "node": {
             "base_classes": [
               "Message"
@@ -744,7 +706,7 @@
         },
         "dragging": false,
         "height": 433,
-        "id": "Prompt-itGOC",
+        "id": "Prompt-Y5Hzv",
         "measured": {
           "height": 433,
           "width": 320
@@ -765,7 +727,7 @@
         "data": {
           "description": "Split text into chunks based on specified criteria.",
           "display_name": "Split Text",
-          "id": "SplitText-oUNjz",
+          "id": "SplitText-siuvM",
           "node": {
             "base_classes": [
               "Data"
@@ -951,14 +913,14 @@
         },
         "dragging": false,
         "height": 475,
-        "id": "SplitText-oUNjz",
+        "id": "SplitText-siuvM",
         "measured": {
           "height": 475,
           "width": 320
         },
         "position": {
-          "x": 1692.461995335383,
-          "y": 1328.2681481569232
+          "x": 1539.4902613205038,
+          "y": 1093.2112646554533
         },
         "positionAbsolute": {
           "x": 1683.4543896546102,
@@ -972,7 +934,7 @@
         "data": {
           "description": "Display a chat message in the Playground.",
           "display_name": "Chat Output",
-          "id": "ChatOutput-cMLKx",
+          "id": "ChatOutput-73rsg",
           "node": {
             "base_classes": [
               "Message"
@@ -982,7 +944,7 @@
             "custom_fields": {},
             "description": "Display a chat message in the Playground.",
             "display_name": "Chat Output",
-            "documentation": "",
+            "documentation": "https://docs.langflow.org/components-io#chat-output",
             "edited": false,
             "field_order": [
               "input_value",
@@ -990,16 +952,13 @@
               "sender",
               "sender_name",
               "session_id",
-              "data_template",
-              "background_color",
-              "chat_icon",
-              "text_color"
+              "data_template"
             ],
             "frozen": false,
             "icon": "MessagesSquare",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
+            "minimized": true,
             "output_types": [],
             "outputs": [
               {
@@ -1009,6 +968,8 @@
                 "group_outputs": false,
                 "method": "message_response",
                 "name": "message",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -1020,68 +981,6 @@
             "pinned": false,
             "template": {
               "_type": "Component",
-              "background_color": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Background Color",
-                "dynamic": false,
-                "info": "The background color of the icon.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "background_color",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
-              "chat_icon": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Icon",
-                "dynamic": false,
-                "info": "The icon of the message.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "chat_icon",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
-              "clean_data": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Basic Clean Data",
-                "dynamic": false,
-                "info": "Whether to clean the data",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "clean_data",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "bool",
-                "value": true
-              },
               "code": {
                 "advanced": true,
                 "dynamic": true,
@@ -1098,7 +997,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.helpers.data import safe_convert\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.template.field.base import Output\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([safe_convert(item, clean_data=self.clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.helpers.data import safe_convert\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.template.field.base import Output\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
               },
               "data_template": {
                 "_input_type": "MessageTextInput",
@@ -1110,6 +1009,7 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "data_template",
                 "placeholder": "",
@@ -1123,7 +1023,7 @@
                 "value": "{text}"
               },
               "input_value": {
-                "_input_type": "MessageInput",
+                "_input_type": "HandleInput",
                 "advanced": false,
                 "display_name": "Inputs",
                 "dynamic": false,
@@ -1134,33 +1034,36 @@
                   "Message"
                 ],
                 "list": false,
-                "load_from_db": false,
+                "list_add_label": "Add More",
                 "name": "input_value",
                 "placeholder": "",
                 "required": true,
                 "show": true,
                 "title_case": false,
-                "trace_as_input": true,
                 "trace_as_metadata": true,
-                "type": "str",
+                "type": "other",
                 "value": ""
               },
               "sender": {
                 "_input_type": "DropdownInput",
                 "advanced": true,
                 "combobox": false,
+                "dialog_inputs": {},
                 "display_name": "Sender Type",
                 "dynamic": false,
+                "external_options": {},
                 "info": "Type of sender.",
                 "name": "sender",
                 "options": [
                   "Machine",
                   "User"
                 ],
+                "options_metadata": [],
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "toggle": false,
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
@@ -1176,6 +1079,7 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "sender_name",
                 "placeholder": "",
@@ -1198,6 +1102,7 @@
                   "Message"
                 ],
                 "list": false,
+                "list_add_label": "Add More",
                 "load_from_db": false,
                 "name": "session_id",
                 "placeholder": "",
@@ -1217,36 +1122,16 @@
                 "dynamic": false,
                 "info": "Store the message in the history.",
                 "list": false,
+                "list_add_label": "Add More",
                 "name": "should_store_message",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
+                "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "bool",
                 "value": true
-              },
-              "text_color": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Text Color",
-                "dynamic": false,
-                "info": "The text color of the name",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "load_from_db": false,
-                "name": "text_color",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
               }
             },
             "tool_mode": false
@@ -1255,7 +1140,7 @@
         },
         "dragging": false,
         "height": 234,
-        "id": "ChatOutput-cMLKx",
+        "id": "ChatOutput-73rsg",
         "measured": {
           "height": 234,
           "width": 320
@@ -1274,7 +1159,7 @@
       },
       {
         "data": {
-          "id": "parser-CLMNL",
+          "id": "parser-slz2w",
           "node": {
             "base_classes": [
               "Message"
@@ -1437,7 +1322,7 @@
           "type": "parser"
         },
         "dragging": false,
-        "id": "parser-CLMNL",
+        "id": "parser-slz2w",
         "measured": {
           "height": 359,
           "width": 320
@@ -1451,7 +1336,7 @@
       },
       {
         "data": {
-          "id": "LanguageModelComponent-QAnfM",
+          "id": "LanguageModelComponent-lvHcE",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1475,7 +1360,7 @@
             ],
             "frozen": false,
             "icon": "brain-circuit",
-            "last_updated": "2025-09-29T16:36:42.794Z",
+            "last_updated": "2025-09-30T18:01:31.856Z",
             "legacy": false,
             "lf_version": "1.5.0.post2",
             "metadata": {
@@ -1732,7 +1617,7 @@
           "type": "LanguageModelComponent"
         },
         "dragging": false,
-        "id": "LanguageModelComponent-QAnfM",
+        "id": "LanguageModelComponent-lvHcE",
         "measured": {
           "height": 466,
           "width": 320
@@ -1746,13 +1631,14 @@
       },
       {
         "data": {
-          "id": "Google Generative AI Embeddings-GxYjR",
+          "description": "Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, found in the langchain-google-genai package.",
+          "display_name": "Google Generative AI Embeddings",
+          "id": "Google Generative AI Embeddings-HQdTi",
           "node": {
             "base_classes": [
               "Embeddings"
             ],
             "beta": false,
-            "category": "google",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, found in the langchain-google-genai package.",
@@ -1764,10 +1650,8 @@
               "model_name"
             ],
             "frozen": false,
-            "icon": "Google",
-            "key": "Google Generative AI Embeddings",
+            "icon": "GoogleGenerativeAI",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1779,6 +1663,8 @@
                 "group_outputs": false,
                 "method": "build_embeddings",
                 "name": "embeddings",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Embeddings",
                 "tool_mode": true,
                 "types": [
@@ -1788,13 +1674,12 @@
               }
             ],
             "pinned": false,
-            "score": 4.04378816396072e-18,
             "template": {
               "_type": "Component",
               "api_key": {
                 "_input_type": "SecretStrInput",
                 "advanced": false,
-                "display_name": "API Key",
+                "display_name": "Google Generative AI API Key",
                 "dynamic": false,
                 "info": "",
                 "input_types": [],
@@ -1824,7 +1709,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# from langflow.field_typing import Data\n\n# TODO: remove ignore once the google package is published with types\nfrom google.ai.generativelanguage_v1beta.types import BatchEmbedContentsRequest\nfrom langchain_core.embeddings import Embeddings\nfrom langchain_google_genai import GoogleGenerativeAIEmbeddings\nfrom langchain_google_genai._common import GoogleGenerativeAIError\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import MessageTextInput, Output, SecretStrInput\n\nMIN_DIMENSION_ERROR = \"Output dimensionality must be at least 1\"\nMAX_DIMENSION_ERROR = (\n    \"Output dimensionality cannot exceed 768. Google's embedding models only support dimensions up to 768.\"\n)\nMAX_DIMENSION = 768\nMIN_DIMENSION = 1\n\n\nclass GoogleGenerativeAIEmbeddingsComponent(Component):\n    display_name = \"Google Generative AI Embeddings\"\n    description = (\n        \"Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, \"\n        \"found in the langchain-google-genai package.\"\n    )\n    documentation: str = \"https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/\"\n    icon = \"Google\"\n    name = \"Google Generative AI Embeddings\"\n\n    inputs = [\n        SecretStrInput(name=\"api_key\", display_name=\"API Key\", required=True),\n        MessageTextInput(name=\"model_name\", display_name=\"Model Name\", value=\"models/text-embedding-004\"),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        if not self.api_key:\n            msg = \"API Key is required\"\n            raise ValueError(msg)\n\n        class HotaGoogleGenerativeAIEmbeddings(GoogleGenerativeAIEmbeddings):\n            def __init__(self, *args, **kwargs) -> None:\n                super(GoogleGenerativeAIEmbeddings, self).__init__(*args, **kwargs)\n\n            def embed_documents(\n                self,\n                texts: list[str],\n                *,\n                batch_size: int = 100,\n                task_type: str | None = None,\n                titles: list[str] | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[list[float]]:\n                \"\"\"Embed a list of strings.\n\n                Google Generative AI currently sets a max batch size of 100 strings.\n\n                Args:\n                    texts: List[str] The list of strings to embed.\n                    batch_size: [int] The batch size of embeddings to send to the model\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    titles: An optional list of titles for texts provided.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n                Returns:\n                    List of embeddings, one for each text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                embeddings: list[list[float]] = []\n                batch_start_index = 0\n                for batch in GoogleGenerativeAIEmbeddings._prepare_batches(texts, batch_size):\n                    if titles:\n                        titles_batch = titles[batch_start_index : batch_start_index + len(batch)]\n                        batch_start_index += len(batch)\n                    else:\n                        titles_batch = [None] * len(batch)  # type: ignore[list-item]\n\n                    requests = [\n                        self._prepare_request(\n                            text=text,\n                            task_type=task_type,\n                            title=title,\n                            output_dimensionality=output_dimensionality,\n                        )\n                        for text, title in zip(batch, titles_batch, strict=True)\n                    ]\n\n                    try:\n                        result = self.client.batch_embed_contents(\n                            BatchEmbedContentsRequest(requests=requests, model=self.model)\n                        )\n                    except Exception as e:\n                        msg = f\"Error embedding content: {e}\"\n                        raise GoogleGenerativeAIError(msg) from e\n                    embeddings.extend([list(e.values) for e in result.embeddings])\n                return embeddings\n\n            def embed_query(\n                self,\n                text: str,\n                task_type: str | None = None,\n                title: str | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[float]:\n                \"\"\"Embed a text.\n\n                Args:\n                    text: The text to embed.\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    title: An optional title for the text.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n\n                Returns:\n                    Embedding for the text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                task_type = task_type or \"RETRIEVAL_QUERY\"\n                return self.embed_documents(\n                    [text],\n                    task_type=task_type,\n                    titles=[title] if title else None,\n                    output_dimensionality=output_dimensionality,\n                )[0]\n\n        return HotaGoogleGenerativeAIEmbeddings(model=self.model_name, google_api_key=self.api_key)\n"
+                "value": "# from langflow.field_typing import Data\n\n# TODO: remove ignore once the google package is published with types\nfrom google.ai.generativelanguage_v1beta.types import BatchEmbedContentsRequest\nfrom langchain_core.embeddings import Embeddings\nfrom langchain_google_genai import GoogleGenerativeAIEmbeddings\nfrom langchain_google_genai._common import GoogleGenerativeAIError\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import MessageTextInput, Output, SecretStrInput\n\nMIN_DIMENSION_ERROR = \"Output dimensionality must be at least 1\"\nMAX_DIMENSION_ERROR = (\n    \"Output dimensionality cannot exceed 768. Google's embedding models only support dimensions up to 768.\"\n)\nMAX_DIMENSION = 768\nMIN_DIMENSION = 1\n\n\nclass GoogleGenerativeAIEmbeddingsComponent(Component):\n    display_name = \"Google Generative AI Embeddings\"\n    description = (\n        \"Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, \"\n        \"found in the langchain-google-genai package.\"\n    )\n    documentation: str = \"https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/\"\n    icon = \"GoogleGenerativeAI\"\n    name = \"Google Generative AI Embeddings\"\n\n    inputs = [\n        SecretStrInput(name=\"api_key\", display_name=\"Google Generative AI API Key\", required=True),\n        MessageTextInput(name=\"model_name\", display_name=\"Model Name\", value=\"models/text-embedding-004\"),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        if not self.api_key:\n            msg = \"API Key is required\"\n            raise ValueError(msg)\n\n        class HotaGoogleGenerativeAIEmbeddings(GoogleGenerativeAIEmbeddings):\n            def __init__(self, *args, **kwargs) -> None:\n                super(GoogleGenerativeAIEmbeddings, self).__init__(*args, **kwargs)\n\n            def embed_documents(\n                self,\n                texts: list[str],\n                *,\n                batch_size: int = 100,\n                task_type: str | None = None,\n                titles: list[str] | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[list[float]]:\n                \"\"\"Embed a list of strings.\n\n                Google Generative AI currently sets a max batch size of 100 strings.\n\n                Args:\n                    texts: List[str] The list of strings to embed.\n                    batch_size: [int] The batch size of embeddings to send to the model\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    titles: An optional list of titles for texts provided.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n                Returns:\n                    List of embeddings, one for each text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                embeddings: list[list[float]] = []\n                batch_start_index = 0\n                for batch in GoogleGenerativeAIEmbeddings._prepare_batches(texts, batch_size):\n                    if titles:\n                        titles_batch = titles[batch_start_index : batch_start_index + len(batch)]\n                        batch_start_index += len(batch)\n                    else:\n                        titles_batch = [None] * len(batch)  # type: ignore[list-item]\n\n                    requests = [\n                        self._prepare_request(\n                            text=text,\n                            task_type=task_type,\n                            title=title,\n                            output_dimensionality=output_dimensionality,\n                        )\n                        for text, title in zip(batch, titles_batch, strict=True)\n                    ]\n\n                    try:\n                        result = self.client.batch_embed_contents(\n                            BatchEmbedContentsRequest(requests=requests, model=self.model)\n                        )\n                    except Exception as e:\n                        msg = f\"Error embedding content: {e}\"\n                        raise GoogleGenerativeAIError(msg) from e\n                    embeddings.extend([list(e.values) for e in result.embeddings])\n                return embeddings\n\n            def embed_query(\n                self,\n                text: str,\n                task_type: str | None = None,\n                title: str | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[float]:\n                \"\"\"Embed a text.\n\n                Args:\n                    text: The text to embed.\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    title: An optional title for the text.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n\n                Returns:\n                    Embedding for the text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                task_type = task_type or \"RETRIEVAL_QUERY\"\n                return self.embed_documents(\n                    [text],\n                    task_type=task_type,\n                    titles=[title] if title else None,\n                    output_dimensionality=output_dimensionality,\n                )[0]\n\n        return HotaGoogleGenerativeAIEmbeddings(model=self.model_name, google_api_key=self.api_key)\n"
               },
               "model_name": {
                 "_input_type": "MessageTextInput",
@@ -1856,28 +1741,29 @@
           "type": "Google Generative AI Embeddings"
         },
         "dragging": false,
-        "id": "Google Generative AI Embeddings-GxYjR",
+        "id": "Google Generative AI Embeddings-HQdTi",
         "measured": {
           "height": 334,
           "width": 320
         },
         "position": {
-          "x": 1696.4888231938612,
-          "y": 1822.294703864977
+          "x": 1543.517089178982,
+          "y": 1587.2378203635071
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Chroma-cRc0O",
+          "description": "Chroma Vector Store with search capabilities",
+          "display_name": "Chroma DB",
+          "id": "Chroma-SE535",
           "node": {
             "base_classes": [
               "Data",
               "DataFrame"
             ],
             "beta": false,
-            "category": "vectorstores",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Chroma Vector Store with search capabilities",
@@ -1903,9 +1789,7 @@
             ],
             "frozen": false,
             "icon": "Chroma",
-            "key": "Chroma",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -1917,6 +1801,8 @@
                 "group_outputs": false,
                 "method": "search_documents",
                 "name": "search_results",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Data",
                 "tool_mode": true,
                 "types": [
@@ -1931,6 +1817,9 @@
                 "group_outputs": false,
                 "method": "as_dataframe",
                 "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
                 "tool_mode": true,
                 "types": [
                   "DataFrame"
@@ -1939,7 +1828,6 @@
               }
             ],
             "pinned": false,
-            "score": 0.028159098974269135,
             "template": {
               "_type": "Component",
               "allow_duplicates": {
@@ -2068,7 +1956,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from copy import deepcopy\nfrom typing import TYPE_CHECKING\n\nfrom chromadb.config import Settings\nfrom langchain_chroma import Chroma\nfrom typing_extensions import override\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.base.vectorstores.utils import chroma_collection_to_data\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, IntInput, StrInput\nfrom langflow.schema.data import Data\n\nif TYPE_CHECKING:\n    from langflow.schema.dataframe import DataFrame\n\n\nclass ChromaVectorStoreComponent(LCVectorStoreComponent):\n    \"\"\"Chroma Vector Store with search capabilities.\"\"\"\n\n    display_name: str = \"Chroma DB\"\n    description: str = \"Chroma Vector Store with search capabilities\"\n    name = \"Chroma\"\n    icon = \"Chroma\"\n\n    inputs = [\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            value=\"langflow\",\n        ),\n        StrInput(\n            name=\"persist_directory\",\n            display_name=\"Persist Directory\",\n        ),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"]),\n        StrInput(\n            name=\"chroma_server_cors_allow_origins\",\n            display_name=\"Server CORS Allow Origins\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"chroma_server_host\",\n            display_name=\"Server Host\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_http_port\",\n            display_name=\"Server HTTP Port\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_grpc_port\",\n            display_name=\"Server gRPC Port\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"chroma_server_ssl_enabled\",\n            display_name=\"Server SSL Enabled\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"allow_duplicates\",\n            display_name=\"Allow Duplicates\",\n            advanced=True,\n            info=\"If false, will not add documents that are already in the Vector Store.\",\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            options=[\"Similarity\", \"MMR\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            advanced=True,\n            value=10,\n        ),\n        IntInput(\n            name=\"limit\",\n            display_name=\"Limit\",\n            advanced=True,\n            info=\"Limit the number of records to compare when Allow Duplicates is False.\",\n        ),\n    ]\n\n    @override\n    @check_cached_vector_store\n    def build_vector_store(self) -> Chroma:\n        \"\"\"Builds the Chroma object.\"\"\"\n        try:\n            from chromadb import Client\n            from langchain_chroma import Chroma\n        except ImportError as e:\n            msg = \"Could not import Chroma integration package. Please install it with `pip install langchain-chroma`.\"\n            raise ImportError(msg) from e\n        # Chroma settings\n        chroma_settings = None\n        client = None\n        if self.chroma_server_host:\n            chroma_settings = Settings(\n                chroma_server_cors_allow_origins=self.chroma_server_cors_allow_origins or [],\n                chroma_server_host=self.chroma_server_host,\n                chroma_server_http_port=self.chroma_server_http_port or None,\n                chroma_server_grpc_port=self.chroma_server_grpc_port or None,\n                chroma_server_ssl_enabled=self.chroma_server_ssl_enabled,\n            )\n            client = Client(settings=chroma_settings)\n\n        # Check persist_directory and expand it if it is a relative path\n        persist_directory = self.resolve_path(self.persist_directory) if self.persist_directory is not None else None\n\n        chroma = Chroma(\n            persist_directory=persist_directory,\n            client=client,\n            embedding_function=self.embedding,\n            collection_name=self.collection_name,\n        )\n\n        self._add_documents_to_vector_store(chroma)\n        self.status = chroma_collection_to_data(chroma.get(limit=self.limit))\n        return chroma\n\n    def _add_documents_to_vector_store(self, vector_store: \"Chroma\") -> None:\n        \"\"\"Adds documents to the Vector Store.\"\"\"\n        ingest_data: list | Data | DataFrame = self.ingest_data\n        if not ingest_data:\n            self.status = \"\"\n            return\n\n        # Convert DataFrame to Data if needed using parent's method\n        ingest_data = self._prepare_ingest_data()\n\n        stored_documents_without_id = []\n        if self.allow_duplicates:\n            stored_data = []\n        else:\n            stored_data = chroma_collection_to_data(vector_store.get(limit=self.limit))\n            for value in deepcopy(stored_data):\n                del value.id\n                stored_documents_without_id.append(value)\n\n        documents = []\n        for _input in ingest_data or []:\n            if isinstance(_input, Data):\n                if _input not in stored_documents_without_id:\n                    documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        if documents and self.embedding is not None:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            vector_store.add_documents(documents)\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n"
+                "value": "from copy import deepcopy\nfrom typing import TYPE_CHECKING\n\nfrom chromadb.config import Settings\nfrom langchain_chroma import Chroma\nfrom typing_extensions import override\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.base.vectorstores.utils import chroma_collection_to_data\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, IntInput, StrInput\nfrom langflow.schema.data import Data\n\nif TYPE_CHECKING:\n    from langflow.schema.dataframe import DataFrame\n\n\nclass ChromaVectorStoreComponent(LCVectorStoreComponent):\n    \"\"\"Chroma Vector Store with search capabilities.\"\"\"\n\n    display_name: str = \"Chroma DB\"\n    description: str = \"Chroma Vector Store with search capabilities\"\n    name = \"Chroma\"\n    icon = \"Chroma\"\n\n    inputs = [\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            value=\"langflow\",\n        ),\n        StrInput(\n            name=\"persist_directory\",\n            display_name=\"Persist Directory\",\n        ),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"]),\n        StrInput(\n            name=\"chroma_server_cors_allow_origins\",\n            display_name=\"Server CORS Allow Origins\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"chroma_server_host\",\n            display_name=\"Server Host\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_http_port\",\n            display_name=\"Server HTTP Port\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_grpc_port\",\n            display_name=\"Server gRPC Port\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"chroma_server_ssl_enabled\",\n            display_name=\"Server SSL Enabled\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"allow_duplicates\",\n            display_name=\"Allow Duplicates\",\n            advanced=True,\n            info=\"If false, will not add documents that are already in the Vector Store.\",\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            options=[\"Similarity\", \"MMR\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            advanced=True,\n            value=10,\n        ),\n        IntInput(\n            name=\"limit\",\n            display_name=\"Limit\",\n            advanced=True,\n            info=\"Limit the number of records to compare when Allow Duplicates is False.\",\n        ),\n    ]\n\n    @override\n    @check_cached_vector_store\n    def build_vector_store(self) -> Chroma:\n        \"\"\"Builds the Chroma object.\"\"\"\n        try:\n            from chromadb import Client\n            from langchain_chroma import Chroma\n        except ImportError as e:\n            msg = \"Could not import Chroma integration package. Please install it with `pip install langchain-chroma`.\"\n            raise ImportError(msg) from e\n        # Chroma settings\n        chroma_settings = None\n        client = None\n        if self.chroma_server_host:\n            chroma_settings = Settings(\n                chroma_server_cors_allow_origins=self.chroma_server_cors_allow_origins or [],\n                chroma_server_host=self.chroma_server_host,\n                chroma_server_http_port=self.chroma_server_http_port or None,\n                chroma_server_grpc_port=self.chroma_server_grpc_port or None,\n                chroma_server_ssl_enabled=self.chroma_server_ssl_enabled,\n            )\n            client = Client(settings=chroma_settings)\n\n        # Check persist_directory and expand it if it is a relative path\n        persist_directory = self.resolve_path(self.persist_directory) if self.persist_directory is not None else None\n\n        chroma = Chroma(\n            persist_directory=persist_directory,\n            client=client,\n            embedding_function=self.embedding,\n            collection_name=self.collection_name,\n        )\n\n        self._add_documents_to_vector_store(chroma)\n        limit = int(self.limit) if self.limit is not None and str(self.limit).strip() else None\n        self.status = chroma_collection_to_data(chroma.get(limit=limit))\n        return chroma\n\n    def _add_documents_to_vector_store(self, vector_store: \"Chroma\") -> None:\n        \"\"\"Adds documents to the Vector Store.\"\"\"\n        ingest_data: list | Data | DataFrame = self.ingest_data\n        if not ingest_data:\n            self.status = \"\"\n            return\n\n        # Convert DataFrame to Data if needed using parent's method\n        ingest_data = self._prepare_ingest_data()\n\n        stored_documents_without_id = []\n        if self.allow_duplicates:\n            stored_data = []\n        else:\n            limit = int(self.limit) if self.limit is not None and str(self.limit).strip() else None\n            stored_data = chroma_collection_to_data(vector_store.get(limit=limit))\n            for value in deepcopy(stored_data):\n                del value.id\n                stored_documents_without_id.append(value)\n\n        documents = []\n        for _input in ingest_data or []:\n            if isinstance(_input, Data):\n                if _input not in stored_documents_without_id:\n                    documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        if documents and self.embedding is not None:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            # Filter complex metadata to prevent ChromaDB errors\n            try:\n                from langchain_community.vectorstores.utils import filter_complex_metadata\n\n                filtered_documents = filter_complex_metadata(documents)\n                vector_store.add_documents(filtered_documents)\n            except ImportError:\n                self.log(\"Warning: Could not import filter_complex_metadata. Adding documents without filtering.\")\n                vector_store.add_documents(documents)\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n"
               },
               "collection_name": {
                 "_input_type": "StrInput",
@@ -2215,6 +2103,7 @@
                 "dialog_inputs": {},
                 "display_name": "Search Type",
                 "dynamic": false,
+                "external_options": {},
                 "info": "",
                 "name": "search_type",
                 "options": [
@@ -2258,21 +2147,21 @@
           "type": "Chroma"
         },
         "dragging": false,
-        "id": "Chroma-cRc0O",
+        "id": "Chroma-SE535",
         "measured": {
           "height": 456,
           "width": 320
         },
         "position": {
-          "x": 2132.888341180385,
-          "y": 1538.5210044079054
+          "x": 1979.9166071655056,
+          "y": 1303.4641209064355
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Directory-KoHl5",
+          "id": "Directory-X8gHq",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -2521,27 +2410,28 @@
           "type": "Directory"
         },
         "dragging": false,
-        "id": "Directory-KoHl5",
+        "id": "Directory-X8gHq",
         "measured": {
           "height": 368,
           "width": 320
         },
         "position": {
-          "x": 1289.7991394790065,
-          "y": 1363.4040327570963
+          "x": 1136.8274054641272,
+          "y": 1128.3471492556264
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Google Generative AI Embeddings-hLlB9",
+          "description": "Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, found in the langchain-google-genai package.",
+          "display_name": "Google Generative AI Embeddings",
+          "id": "Google Generative AI Embeddings-rUmWK",
           "node": {
             "base_classes": [
               "Embeddings"
             ],
             "beta": false,
-            "category": "google",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, found in the langchain-google-genai package.",
@@ -2553,10 +2443,8 @@
               "model_name"
             ],
             "frozen": false,
-            "icon": "Google",
-            "key": "Google Generative AI Embeddings",
+            "icon": "GoogleGenerativeAI",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -2568,6 +2456,8 @@
                 "group_outputs": false,
                 "method": "build_embeddings",
                 "name": "embeddings",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Embeddings",
                 "tool_mode": true,
                 "types": [
@@ -2577,13 +2467,12 @@
               }
             ],
             "pinned": false,
-            "score": 4.04378816396072e-18,
             "template": {
               "_type": "Component",
               "api_key": {
                 "_input_type": "SecretStrInput",
                 "advanced": false,
-                "display_name": "API Key",
+                "display_name": "Google Generative AI API Key",
                 "dynamic": false,
                 "info": "",
                 "input_types": [],
@@ -2613,7 +2502,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# from langflow.field_typing import Data\n\n# TODO: remove ignore once the google package is published with types\nfrom google.ai.generativelanguage_v1beta.types import BatchEmbedContentsRequest\nfrom langchain_core.embeddings import Embeddings\nfrom langchain_google_genai import GoogleGenerativeAIEmbeddings\nfrom langchain_google_genai._common import GoogleGenerativeAIError\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import MessageTextInput, Output, SecretStrInput\n\nMIN_DIMENSION_ERROR = \"Output dimensionality must be at least 1\"\nMAX_DIMENSION_ERROR = (\n    \"Output dimensionality cannot exceed 768. Google's embedding models only support dimensions up to 768.\"\n)\nMAX_DIMENSION = 768\nMIN_DIMENSION = 1\n\n\nclass GoogleGenerativeAIEmbeddingsComponent(Component):\n    display_name = \"Google Generative AI Embeddings\"\n    description = (\n        \"Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, \"\n        \"found in the langchain-google-genai package.\"\n    )\n    documentation: str = \"https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/\"\n    icon = \"Google\"\n    name = \"Google Generative AI Embeddings\"\n\n    inputs = [\n        SecretStrInput(name=\"api_key\", display_name=\"API Key\", required=True),\n        MessageTextInput(name=\"model_name\", display_name=\"Model Name\", value=\"models/text-embedding-004\"),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        if not self.api_key:\n            msg = \"API Key is required\"\n            raise ValueError(msg)\n\n        class HotaGoogleGenerativeAIEmbeddings(GoogleGenerativeAIEmbeddings):\n            def __init__(self, *args, **kwargs) -> None:\n                super(GoogleGenerativeAIEmbeddings, self).__init__(*args, **kwargs)\n\n            def embed_documents(\n                self,\n                texts: list[str],\n                *,\n                batch_size: int = 100,\n                task_type: str | None = None,\n                titles: list[str] | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[list[float]]:\n                \"\"\"Embed a list of strings.\n\n                Google Generative AI currently sets a max batch size of 100 strings.\n\n                Args:\n                    texts: List[str] The list of strings to embed.\n                    batch_size: [int] The batch size of embeddings to send to the model\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    titles: An optional list of titles for texts provided.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n                Returns:\n                    List of embeddings, one for each text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                embeddings: list[list[float]] = []\n                batch_start_index = 0\n                for batch in GoogleGenerativeAIEmbeddings._prepare_batches(texts, batch_size):\n                    if titles:\n                        titles_batch = titles[batch_start_index : batch_start_index + len(batch)]\n                        batch_start_index += len(batch)\n                    else:\n                        titles_batch = [None] * len(batch)  # type: ignore[list-item]\n\n                    requests = [\n                        self._prepare_request(\n                            text=text,\n                            task_type=task_type,\n                            title=title,\n                            output_dimensionality=output_dimensionality,\n                        )\n                        for text, title in zip(batch, titles_batch, strict=True)\n                    ]\n\n                    try:\n                        result = self.client.batch_embed_contents(\n                            BatchEmbedContentsRequest(requests=requests, model=self.model)\n                        )\n                    except Exception as e:\n                        msg = f\"Error embedding content: {e}\"\n                        raise GoogleGenerativeAIError(msg) from e\n                    embeddings.extend([list(e.values) for e in result.embeddings])\n                return embeddings\n\n            def embed_query(\n                self,\n                text: str,\n                task_type: str | None = None,\n                title: str | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[float]:\n                \"\"\"Embed a text.\n\n                Args:\n                    text: The text to embed.\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    title: An optional title for the text.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n\n                Returns:\n                    Embedding for the text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                task_type = task_type or \"RETRIEVAL_QUERY\"\n                return self.embed_documents(\n                    [text],\n                    task_type=task_type,\n                    titles=[title] if title else None,\n                    output_dimensionality=output_dimensionality,\n                )[0]\n\n        return HotaGoogleGenerativeAIEmbeddings(model=self.model_name, google_api_key=self.api_key)\n"
+                "value": "# from langflow.field_typing import Data\n\n# TODO: remove ignore once the google package is published with types\nfrom google.ai.generativelanguage_v1beta.types import BatchEmbedContentsRequest\nfrom langchain_core.embeddings import Embeddings\nfrom langchain_google_genai import GoogleGenerativeAIEmbeddings\nfrom langchain_google_genai._common import GoogleGenerativeAIError\n\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import MessageTextInput, Output, SecretStrInput\n\nMIN_DIMENSION_ERROR = \"Output dimensionality must be at least 1\"\nMAX_DIMENSION_ERROR = (\n    \"Output dimensionality cannot exceed 768. Google's embedding models only support dimensions up to 768.\"\n)\nMAX_DIMENSION = 768\nMIN_DIMENSION = 1\n\n\nclass GoogleGenerativeAIEmbeddingsComponent(Component):\n    display_name = \"Google Generative AI Embeddings\"\n    description = (\n        \"Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, \"\n        \"found in the langchain-google-genai package.\"\n    )\n    documentation: str = \"https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/\"\n    icon = \"GoogleGenerativeAI\"\n    name = \"Google Generative AI Embeddings\"\n\n    inputs = [\n        SecretStrInput(name=\"api_key\", display_name=\"Google Generative AI API Key\", required=True),\n        MessageTextInput(name=\"model_name\", display_name=\"Model Name\", value=\"models/text-embedding-004\"),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        if not self.api_key:\n            msg = \"API Key is required\"\n            raise ValueError(msg)\n\n        class HotaGoogleGenerativeAIEmbeddings(GoogleGenerativeAIEmbeddings):\n            def __init__(self, *args, **kwargs) -> None:\n                super(GoogleGenerativeAIEmbeddings, self).__init__(*args, **kwargs)\n\n            def embed_documents(\n                self,\n                texts: list[str],\n                *,\n                batch_size: int = 100,\n                task_type: str | None = None,\n                titles: list[str] | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[list[float]]:\n                \"\"\"Embed a list of strings.\n\n                Google Generative AI currently sets a max batch size of 100 strings.\n\n                Args:\n                    texts: List[str] The list of strings to embed.\n                    batch_size: [int] The batch size of embeddings to send to the model\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    titles: An optional list of titles for texts provided.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n                Returns:\n                    List of embeddings, one for each text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                embeddings: list[list[float]] = []\n                batch_start_index = 0\n                for batch in GoogleGenerativeAIEmbeddings._prepare_batches(texts, batch_size):\n                    if titles:\n                        titles_batch = titles[batch_start_index : batch_start_index + len(batch)]\n                        batch_start_index += len(batch)\n                    else:\n                        titles_batch = [None] * len(batch)  # type: ignore[list-item]\n\n                    requests = [\n                        self._prepare_request(\n                            text=text,\n                            task_type=task_type,\n                            title=title,\n                            output_dimensionality=output_dimensionality,\n                        )\n                        for text, title in zip(batch, titles_batch, strict=True)\n                    ]\n\n                    try:\n                        result = self.client.batch_embed_contents(\n                            BatchEmbedContentsRequest(requests=requests, model=self.model)\n                        )\n                    except Exception as e:\n                        msg = f\"Error embedding content: {e}\"\n                        raise GoogleGenerativeAIError(msg) from e\n                    embeddings.extend([list(e.values) for e in result.embeddings])\n                return embeddings\n\n            def embed_query(\n                self,\n                text: str,\n                task_type: str | None = None,\n                title: str | None = None,\n                output_dimensionality: int | None = 768,\n            ) -> list[float]:\n                \"\"\"Embed a text.\n\n                Args:\n                    text: The text to embed.\n                    task_type: task_type (https://ai.google.dev/api/rest/v1/TaskType)\n                    title: An optional title for the text.\n                    Only applicable when TaskType is RETRIEVAL_DOCUMENT.\n                    output_dimensionality: Optional reduced dimension for the output embedding.\n                    https://ai.google.dev/api/rest/v1/models/batchEmbedContents#EmbedContentRequest\n\n                Returns:\n                    Embedding for the text.\n                \"\"\"\n                if output_dimensionality is not None and output_dimensionality < MIN_DIMENSION:\n                    raise ValueError(MIN_DIMENSION_ERROR)\n                if output_dimensionality is not None and output_dimensionality > MAX_DIMENSION:\n                    error_msg = MAX_DIMENSION_ERROR.format(output_dimensionality)\n                    raise ValueError(error_msg)\n\n                task_type = task_type or \"RETRIEVAL_QUERY\"\n                return self.embed_documents(\n                    [text],\n                    task_type=task_type,\n                    titles=[title] if title else None,\n                    output_dimensionality=output_dimensionality,\n                )[0]\n\n        return HotaGoogleGenerativeAIEmbeddings(model=self.model_name, google_api_key=self.api_key)\n"
               },
               "model_name": {
                 "_input_type": "MessageTextInput",
@@ -2645,7 +2534,7 @@
           "type": "Google Generative AI Embeddings"
         },
         "dragging": false,
-        "id": "Google Generative AI Embeddings-hLlB9",
+        "id": "Google Generative AI Embeddings-rUmWK",
         "measured": {
           "height": 334,
           "width": 320
@@ -2659,14 +2548,15 @@
       },
       {
         "data": {
-          "id": "Chroma-avTHM",
+          "description": "Chroma Vector Store with search capabilities",
+          "display_name": "Chroma DB",
+          "id": "Chroma-IdYWj",
           "node": {
             "base_classes": [
               "Data",
               "DataFrame"
             ],
             "beta": false,
-            "category": "vectorstores",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Chroma Vector Store with search capabilities",
@@ -2692,9 +2582,7 @@
             ],
             "frozen": false,
             "icon": "Chroma",
-            "key": "Chroma",
             "legacy": false,
-            "lf_version": "1.5.0.post2",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -2706,6 +2594,9 @@
                 "group_outputs": false,
                 "method": "search_documents",
                 "name": "search_results",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
                 "tool_mode": true,
                 "types": [
                   "Data"
@@ -2719,6 +2610,8 @@
                 "group_outputs": false,
                 "method": "as_dataframe",
                 "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
                 "selected": "DataFrame",
                 "tool_mode": true,
                 "types": [
@@ -2728,7 +2621,6 @@
               }
             ],
             "pinned": false,
-            "score": 0.028159098974269135,
             "template": {
               "_type": "Component",
               "allow_duplicates": {
@@ -2857,7 +2749,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from copy import deepcopy\nfrom typing import TYPE_CHECKING\n\nfrom chromadb.config import Settings\nfrom langchain_chroma import Chroma\nfrom typing_extensions import override\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.base.vectorstores.utils import chroma_collection_to_data\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, IntInput, StrInput\nfrom langflow.schema.data import Data\n\nif TYPE_CHECKING:\n    from langflow.schema.dataframe import DataFrame\n\n\nclass ChromaVectorStoreComponent(LCVectorStoreComponent):\n    \"\"\"Chroma Vector Store with search capabilities.\"\"\"\n\n    display_name: str = \"Chroma DB\"\n    description: str = \"Chroma Vector Store with search capabilities\"\n    name = \"Chroma\"\n    icon = \"Chroma\"\n\n    inputs = [\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            value=\"langflow\",\n        ),\n        StrInput(\n            name=\"persist_directory\",\n            display_name=\"Persist Directory\",\n        ),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"]),\n        StrInput(\n            name=\"chroma_server_cors_allow_origins\",\n            display_name=\"Server CORS Allow Origins\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"chroma_server_host\",\n            display_name=\"Server Host\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_http_port\",\n            display_name=\"Server HTTP Port\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_grpc_port\",\n            display_name=\"Server gRPC Port\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"chroma_server_ssl_enabled\",\n            display_name=\"Server SSL Enabled\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"allow_duplicates\",\n            display_name=\"Allow Duplicates\",\n            advanced=True,\n            info=\"If false, will not add documents that are already in the Vector Store.\",\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            options=[\"Similarity\", \"MMR\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            advanced=True,\n            value=10,\n        ),\n        IntInput(\n            name=\"limit\",\n            display_name=\"Limit\",\n            advanced=True,\n            info=\"Limit the number of records to compare when Allow Duplicates is False.\",\n        ),\n    ]\n\n    @override\n    @check_cached_vector_store\n    def build_vector_store(self) -> Chroma:\n        \"\"\"Builds the Chroma object.\"\"\"\n        try:\n            from chromadb import Client\n            from langchain_chroma import Chroma\n        except ImportError as e:\n            msg = \"Could not import Chroma integration package. Please install it with `pip install langchain-chroma`.\"\n            raise ImportError(msg) from e\n        # Chroma settings\n        chroma_settings = None\n        client = None\n        if self.chroma_server_host:\n            chroma_settings = Settings(\n                chroma_server_cors_allow_origins=self.chroma_server_cors_allow_origins or [],\n                chroma_server_host=self.chroma_server_host,\n                chroma_server_http_port=self.chroma_server_http_port or None,\n                chroma_server_grpc_port=self.chroma_server_grpc_port or None,\n                chroma_server_ssl_enabled=self.chroma_server_ssl_enabled,\n            )\n            client = Client(settings=chroma_settings)\n\n        # Check persist_directory and expand it if it is a relative path\n        persist_directory = self.resolve_path(self.persist_directory) if self.persist_directory is not None else None\n\n        chroma = Chroma(\n            persist_directory=persist_directory,\n            client=client,\n            embedding_function=self.embedding,\n            collection_name=self.collection_name,\n        )\n\n        self._add_documents_to_vector_store(chroma)\n        self.status = chroma_collection_to_data(chroma.get(limit=self.limit))\n        return chroma\n\n    def _add_documents_to_vector_store(self, vector_store: \"Chroma\") -> None:\n        \"\"\"Adds documents to the Vector Store.\"\"\"\n        ingest_data: list | Data | DataFrame = self.ingest_data\n        if not ingest_data:\n            self.status = \"\"\n            return\n\n        # Convert DataFrame to Data if needed using parent's method\n        ingest_data = self._prepare_ingest_data()\n\n        stored_documents_without_id = []\n        if self.allow_duplicates:\n            stored_data = []\n        else:\n            stored_data = chroma_collection_to_data(vector_store.get(limit=self.limit))\n            for value in deepcopy(stored_data):\n                del value.id\n                stored_documents_without_id.append(value)\n\n        documents = []\n        for _input in ingest_data or []:\n            if isinstance(_input, Data):\n                if _input not in stored_documents_without_id:\n                    documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        if documents and self.embedding is not None:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            vector_store.add_documents(documents)\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n"
+                "value": "from copy import deepcopy\nfrom typing import TYPE_CHECKING\n\nfrom chromadb.config import Settings\nfrom langchain_chroma import Chroma\nfrom typing_extensions import override\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.base.vectorstores.utils import chroma_collection_to_data\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, IntInput, StrInput\nfrom langflow.schema.data import Data\n\nif TYPE_CHECKING:\n    from langflow.schema.dataframe import DataFrame\n\n\nclass ChromaVectorStoreComponent(LCVectorStoreComponent):\n    \"\"\"Chroma Vector Store with search capabilities.\"\"\"\n\n    display_name: str = \"Chroma DB\"\n    description: str = \"Chroma Vector Store with search capabilities\"\n    name = \"Chroma\"\n    icon = \"Chroma\"\n\n    inputs = [\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            value=\"langflow\",\n        ),\n        StrInput(\n            name=\"persist_directory\",\n            display_name=\"Persist Directory\",\n        ),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"]),\n        StrInput(\n            name=\"chroma_server_cors_allow_origins\",\n            display_name=\"Server CORS Allow Origins\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"chroma_server_host\",\n            display_name=\"Server Host\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_http_port\",\n            display_name=\"Server HTTP Port\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chroma_server_grpc_port\",\n            display_name=\"Server gRPC Port\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"chroma_server_ssl_enabled\",\n            display_name=\"Server SSL Enabled\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"allow_duplicates\",\n            display_name=\"Allow Duplicates\",\n            advanced=True,\n            info=\"If false, will not add documents that are already in the Vector Store.\",\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            options=[\"Similarity\", \"MMR\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            advanced=True,\n            value=10,\n        ),\n        IntInput(\n            name=\"limit\",\n            display_name=\"Limit\",\n            advanced=True,\n            info=\"Limit the number of records to compare when Allow Duplicates is False.\",\n        ),\n    ]\n\n    @override\n    @check_cached_vector_store\n    def build_vector_store(self) -> Chroma:\n        \"\"\"Builds the Chroma object.\"\"\"\n        try:\n            from chromadb import Client\n            from langchain_chroma import Chroma\n        except ImportError as e:\n            msg = \"Could not import Chroma integration package. Please install it with `pip install langchain-chroma`.\"\n            raise ImportError(msg) from e\n        # Chroma settings\n        chroma_settings = None\n        client = None\n        if self.chroma_server_host:\n            chroma_settings = Settings(\n                chroma_server_cors_allow_origins=self.chroma_server_cors_allow_origins or [],\n                chroma_server_host=self.chroma_server_host,\n                chroma_server_http_port=self.chroma_server_http_port or None,\n                chroma_server_grpc_port=self.chroma_server_grpc_port or None,\n                chroma_server_ssl_enabled=self.chroma_server_ssl_enabled,\n            )\n            client = Client(settings=chroma_settings)\n\n        # Check persist_directory and expand it if it is a relative path\n        persist_directory = self.resolve_path(self.persist_directory) if self.persist_directory is not None else None\n\n        chroma = Chroma(\n            persist_directory=persist_directory,\n            client=client,\n            embedding_function=self.embedding,\n            collection_name=self.collection_name,\n        )\n\n        self._add_documents_to_vector_store(chroma)\n        limit = int(self.limit) if self.limit is not None and str(self.limit).strip() else None\n        self.status = chroma_collection_to_data(chroma.get(limit=limit))\n        return chroma\n\n    def _add_documents_to_vector_store(self, vector_store: \"Chroma\") -> None:\n        \"\"\"Adds documents to the Vector Store.\"\"\"\n        ingest_data: list | Data | DataFrame = self.ingest_data\n        if not ingest_data:\n            self.status = \"\"\n            return\n\n        # Convert DataFrame to Data if needed using parent's method\n        ingest_data = self._prepare_ingest_data()\n\n        stored_documents_without_id = []\n        if self.allow_duplicates:\n            stored_data = []\n        else:\n            limit = int(self.limit) if self.limit is not None and str(self.limit).strip() else None\n            stored_data = chroma_collection_to_data(vector_store.get(limit=limit))\n            for value in deepcopy(stored_data):\n                del value.id\n                stored_documents_without_id.append(value)\n\n        documents = []\n        for _input in ingest_data or []:\n            if isinstance(_input, Data):\n                if _input not in stored_documents_without_id:\n                    documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        if documents and self.embedding is not None:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            # Filter complex metadata to prevent ChromaDB errors\n            try:\n                from langchain_community.vectorstores.utils import filter_complex_metadata\n\n                filtered_documents = filter_complex_metadata(documents)\n                vector_store.add_documents(filtered_documents)\n            except ImportError:\n                self.log(\"Warning: Could not import filter_complex_metadata. Adding documents without filtering.\")\n                vector_store.add_documents(documents)\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n"
               },
               "collection_name": {
                 "_input_type": "StrInput",
@@ -3004,6 +2896,7 @@
                 "dialog_inputs": {},
                 "display_name": "Search Type",
                 "dynamic": false,
+                "external_options": {},
                 "info": "",
                 "name": "search_type",
                 "options": [
@@ -3047,7 +2940,7 @@
           "type": "Chroma"
         },
         "dragging": false,
-        "id": "Chroma-avTHM",
+        "id": "Chroma-IdYWj",
         "measured": {
           "height": 456,
           "width": 320
@@ -3061,16 +2954,16 @@
       }
     ],
     "viewport": {
-      "x": -111.16689996774289,
-      "y": -180.21101866286358,
-      "zoom": 0.5362026890806959
+      "x": -338.7725576107132,
+      "y": -255.1309228879702,
+      "zoom": 0.7256420356248213
     }
   },
   "description": "Simple RAG that reads my Obsidian Vault, embeds the data into a vector store, and answers my questions.",
   "endpoint_name": null,
-  "id": "f30a702e-3397-487f-bb89-b724440f4b66",
+  "id": "88b9a2fd-0026-412c-a875-9be84d0f2e52",
   "is_component": false,
-  "last_tested_version": "1.5.0.post2",
+  "last_tested_version": "1.6.0",
   "name": "2. Basic RAG (Embeddings)",
   "tags": [
     "openai",
